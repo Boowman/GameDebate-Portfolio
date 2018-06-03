@@ -1,0 +1,152 @@
+@charset "utf-8";
+#reg_content {
+	background-color: #1b1d22;
+	width: 960px;
+	min-height: 430px;
+	margin-left: auto;
+	border: 1px solid #afafaf;
+	overflow: auto;
+	margin-right: auto;
+	font-family: Calibri;
+	font-size: 20px;
+	height: auto;
+}
+#profile_background {
+	height: 250px;
+	width: 960px;
+}
+#profile_avatar_bg {
+	height: 140px;
+	width: 128px;
+	margin-left: 30px;
+	margin-top: -60px;
+	background-color: #DCDCDC;
+	border: 1px solid #3c3c3c;
+	display: inline-block;
+	padding-top: 7px;
+	text-align: center;
+}
+#profile_avatar {
+	min-width: 120px;
+	min-height: 120px;
+	max-height: 128px;
+	max-width: 120px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+#profile_username{
+	height: 20px;
+	width: 300px;
+	margin-top: 2px;
+	margin-left: 18px;
+	vertical-align: top;
+	display: inline-block;
+	color: #dae7e7;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 25px;
+}
+#profile_links {
+	height: 20px;
+	width: 500px;
+	vertical-align: top;
+	display: inline-block;
+	margin-left: 125px;
+	margin-top: -70px;
+}
+#profile_links ul {
+	text-decoration: none;
+	list-style-type: none;
+}
+#profile_links ul li.profile_steam a {
+	color: #f4bb15;
+	font-weight: bold;
+}
+#profile_links ul li.profile_steam a:hover {
+	color: #ffd800;
+}
+#profile_links ul li.profile_youtube a {
+	color: #CC181E;
+	font-weight: bold;
+}
+#profile_links ul li.profile_youtube a:hover {
+	color: #CC4B4F;
+}
+#profile_links li {
+	float: left;
+	margin-left: 10px;
+	margin-right: -20px;
+}
+#profile_links li a {
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-decoration: none;
+}
+.profile_links_icon {
+	margin-right: 5px;
+}
+
+#profile_status{
+	height: 20px;
+	right: 0px;
+	padding-left: -10px;
+	float: right;
+	margin-top: -110px;
+	margin-right: 20px;
+}
+#profile_status ul{
+	border-radius: 15px;
+	text-decoration: none;
+	list-style-type: none;
+}
+#profile_status li{
+	background-color: #373c44;
+	padding-right: 30px;
+	padding-left: 35px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #3b4049;
+	font-family: Arial, Tahoma, Calibri, Verdana, sans-serif;
+	color: #FFFFFF;
+	float: right;
+	font-size: 15px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #191b1f;
+	font-weight: bold;
+}
+#profile_status li.profile_status_first{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+#profile_status li.profile_status_last{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.profile_status_icon {
+	margin-left: -30px;
+	vertical-align: top;
+	display: inline-block;
+	margin-top: -8px;
+}
+.profile_status_name {
+	margin-bottom: -10px;
+	margin-top: 10px;
+}
+#profile_description{
+	width: 890px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	color: #dae7e7;
+}
+#profile_description_title{
+	font-size: 24px;
+	margin-left: -20px;
+	margin-top: -10px;
+	padding-bottom: 5px;
+}
+hr.profile_separator{
+	background-color: #3B4049;
+	width: 910px;
+	height: 1px;
+}

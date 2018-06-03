@@ -1,0 +1,136 @@
+@charset "utf-8";
+#header {
+	height: 60px;
+	min-width: 960px;
+	width: 100%;
+	background-color: #141414;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #c0392b;
+}
+#navigation {
+	width: 960px;
+	height: 60px;
+	position: relative;
+	padding-left: -10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#hd_logo {
+	margin-top: 11px;
+}
+.hd_icon{
+	margin-bottom: -2px;
+	margin-left: 10px;
+}
+#hd_login ul {
+	margin-top: 5px;
+	list-style: none;
+	display: block;
+}
+#hd_login {
+	height: 60px;
+	width: 150px;
+	right: 0px;
+	font-family: Arial, Tahoma, Calibri, Verdana, sans-serif;
+	font-size: 15px;
+	color: #FFF;
+	margin-top: -59px;
+	display: block;
+	position: absolute;
+}
+#hd_login li{
+	display: block;
+	float: right;
+	width: auto;
+	height: 30px;
+}
+#hd_login li a {
+	background-color: #141414;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	color: #FFF;
+	padding-top: 5px;
+	width: 150px;
+	padding-bottom: 4px;
+	height: 21px;
+}
+#hd_login li a:hover {
+	background-color: #FFF;
+	color: #000;
+	display: block;
+}
+#lg_login {
+	height: 60px;
+	width: auto;
+	right: 0px;
+	font-family: Arial, Tahoma, Calibri, Verdana, sans-serif;
+	font-size: 15px;
+	color: #FFF;
+	margin-top: -53px;
+	display: block;
+	position: absolute;
+}
+#lg_logged {
+	height: 60px;
+	width: auto;
+	right: 0px;
+	margin-right: 9px;
+	font-family: Arial, Tahoma, Calibri, Verdana, sans-serif;
+	font-size: 15px;
+	color: #FFF;
+	margin-top: -53px;
+	display: block;
+	position: absolute;lg_logged
+}
+#lg_avatar {
+	max-width: 50px;
+	margin-top: 5px;
+	margin-right: 5px;
+	display: inline-block;
+}
+#lg_username {
+	font-family: Calibri;
+	font-size: 18px;
+	color: #FFF;
+	margin-top: 5px;
+	margin-right: 5px;
+	display: inline-block;
+	vertical-align: top;
+}
+#lg_control {
+	width: 36px;
+	margin-top: 8px;
+	display: inline-block;
+	vertical-align: top;
+}
+#lg_logout {
+	float: right;
+	margin-top: 13px;
+	margin-right: 13px;
+}
+button, input[name="submit_logout"]{
+	width: auto;
+	height: 30px;
+	background-color: #CCC;
+	font-family: Arial, Tahoma, Calibri, Verdana, sans-serif;
+	font-size: 18px;
+	color: #000;
+	border: 1px solid ;
+}
+button, input[name="submit_logout"]:hover{
+	background-color: #27ae60;
+}
+button, input[name="submit_logout"]{
+	width: auto;
+	height: 25px;
+	background-color: #CCC;
+	font-family: Arial, Tahoma, Calibri, Verdana, sans-serif;
+	font-size: 15px;
+	color: #000;
+	border: 1px solid ;
+}
+button, input[name="submit_logout"]:hover{
+	background-color: #c0392b;
+}

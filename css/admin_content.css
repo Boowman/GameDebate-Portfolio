@@ -1,0 +1,102 @@
+@charset "utf-8";
+#admin_content {
+	background-color: #1b1d22;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #afafaf;
+}
+#main_left {
+	width: 200px;
+	margin-left: 20px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #aaaaaa;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #aaaaaa;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #aaaaaa;
+	background-color: #d2d2d2;
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+.options {
+	float: left;
+	width: 200px;
+	background-image: url(../images/admin_page/titles-bar.png);
+	background-repeat: repeat-x;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #aaaaaa;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #aaaaaa;
+	font-family: Arial, Tahoma, Calibri, Verdana, sans-serif;
+	color: #FFF;
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+.option_title {
+	height: 20;
+	background-image: url(../images/admin_page/titles-bar.png);
+	color: #FFF;
+	display: block;
+	font-family: Arial, Tahoma, Calibri, Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+}
+.pick_link {
+	float: left;
+	height: auto;
+	width: 200px;
+}
+.options_link{
+	color: #333333;
+	font-family: Arial, Tahoma, Calibri, Verdana, sans-serif;
+	font-size: 16px;
+	text-align: left;
+	display: block;
+	list-style-type: none;
+	text-decoration: none;
+	padding-top: 5px;
+	margin-top: 0px;
+	padding-bottom: 5px;
+	margin-bottom: 0px;
+	font-weight: normal;
+}
+.options_link li {
+	margin-left: -30px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.options_link li a {
+	color: #333;
+	text-decoration: none;
+}
+.options_link li a:hover {
+	color: #C0392B;
+	font-size: 16px;
+}
+#main_right {
+	width: 700px;
+	height: 600px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #aaaaaa;
+	border-bottom-color: #aaaaaa;
+	border-left-color: #aaaaaa;
+	background-color: #d2d2d2;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
